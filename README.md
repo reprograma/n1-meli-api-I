@@ -65,3 +65,62 @@ application.get('/', function (request, response) {
   response.status(200).send('Olá!')
 }).listen(PORT)
 ```
+
+
+### URL
+Exemplo: www.google.com/images?size=500&free_use=false.
+
+Nessa URL temos o domínio: www.google.com.
+o path: /images.
+Dados query string (depois da interrogação): size = 500 e free_use = false.
+
+__queryString__:http://example.com/over/there?name=ferret  'name=ferret' 
+
+
+
+
+### API (Application Programming Interface)
+
+É um conjunto de instruções e padrões de programação para acesso a um aplicativo de software. Uma empresa de software lança sua API para o público de modo que outros criadores de software possam desenvolver produtos acionados por esse serviço.
+
+#### API REST (https://blog.caelum.com.br/rest-principios-e-boas-praticas/)
+REST (Respresentational State Transfer)
+
+REST é um dos modelos de arquitetura que foi descrito por Roy Fielding, um dos principais criadores do protocolo HTTP, em sua tese de doutorado e que foi adotado como o modelo a ser utilizado na evolução da arquitetura do protocolo HTTP.
+
+
+__endpoint__ : Um endpoint de um web service é a URL(o final dela) onde seu serviço pode ser acessado por uma aplicação cliente.   
+
+### Rotas
+
+Rotas são usadas para determinar como uma aplicação responde a um request de um cliente em um determinado endpoint, que é uma URI e método HTTP específico (ex: GET).
+
+```
+app.METHOD(PATH, HANDLER)
+```
+
+Cada Rota pode ter uma ou mais funções, que são executadas quando a rota é 'matched'
+
+
+### Controller 
+Callback functions que lidam com o router. 
+
+
+### cURL (client for URL)
+é uma ferramenta da linha de comando para transferir dados usando vários protocolos, entre eles o HTTP. 
+
+#### HTTP GET 
+``` curl https://www.google.com ``` 
+
+#### Retornando somente os headers de uma URL 
+```curl -I https://www.google.com ```
+
+#### Links:
+https://medium.com/clebertech/o-que-%C3%A9-json-daaa9311e929
+https://www.w3schools.com/nodejs/
+https://otaviopace.github.io/livro-desenvolvimento-web-basico/book/qual_a_ideia_do_livro.html 
+https://expressjs.com
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
+https://nodemon.io/
+https://github.com/expressjs/cors
+https://www.keycdn.com/support/popular-curl-examples
