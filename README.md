@@ -38,7 +38,9 @@ __Headers__: Cabeçalho da requisição/resposta
 
 Um cabeçalho de requisição é um cabeçalho HTTP que pode ser utilizado em uma requisição HTTP, e não é relacionado ao conteúdo da mensagem.
 
-__body__: corpo da requisição/resposta 
+__body__: A parte final do request é o seu "body". Nem todos os requests precisam de um. São os requests como o GET onde estamos apenas pegando recursos.  Alguns requests enviam dados para o servidor e aí precisam do body, como é o caso do POST. 
+
+Já no caso das responses, depois de receber e interpretar um request, o servidor pode responser como uma mensagem, além dos headers,que seria o corpo da resposta. 
 
 Não usa-se, normalmente, body nas requisições GET. Ele é mais útil em POSTs e PUTs,
 Quando você envia os dados de um formulário de uma página HTML, por exemplo. 
@@ -75,9 +77,6 @@ o path: /images.
 Dados query string (depois da interrogação): size = 500 e free_use = false.
 
 __queryString__:http://example.com/over/there?name=ferret  'name=ferret' 
-
-
-
 
 ### API (Application Programming Interface)
 
