@@ -111,6 +111,9 @@ Callback functions que lidam com o router.
 #### HTTP GET 
 ``` curl https://www.google.com ``` 
 
+Editando o header e explicitando o verbo usado:
+``` curl -H "Accept: application/json" -X GET http://localhost:3000/alunas ```
+
 #### Retornando somente os headers de uma URL 
 ```curl -I https://www.google.com ```
 
@@ -119,7 +122,9 @@ https://medium.com/clebertech/o-que-%C3%A9-json-daaa9311e929
 https://www.w3schools.com/nodejs/
 https://otaviopace.github.io/livro-desenvolvimento-web-basico/book/qual_a_ideia_do_livro.html 
 https://expressjs.com
+https://expressjs.com/en/api.html#app.use
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
 https://nodemon.io/
 https://github.com/expressjs/cors
 https://www.keycdn.com/support/popular-curl-examples
+ https://mundoapi.com.br/destaques/curl/

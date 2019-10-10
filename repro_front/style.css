@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    margin:0;
+    padding:0;
+}
+
+header {
+    display: flex;
+    box-shadow: 0px 5px 5px 0px rgba(128, 128, 128, 0.438);
+    padding: 20px 50px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: #7E459B;
+    width: 600px;
+    padding: 16px 26px;
+    border-radius: 5px;
+    margin: 0 auto !important;
+}
+
+.page {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(77, 63, 63, 0.068);
+    width: 600px;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 50px 10px;
+}
+
+.input-field label {
+   display: block;
+}
+.input-field {
+    margin: 10px 0 20px 0;
+}
+input {
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+fieldset {
+    border: none;
+    padding:0;
+    margin-top: 20px;
+}
+
+button {
+    border: 1px solid purple;
+    background-color: transparent;
+    cursor: pointer;
+    width: 170px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color: purple;
+}
+
+button:hover {
+    background-color: purple;
+    color:white;
+    transition: all 1s;
+}
+
+.alunas-container {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.aluninhas {
+    border-top: 1px solid rgba(128, 128, 128, 0.644);
+    list-style: none;
+    border-left:1px solid rgba(128, 128, 128, 0.644);
+    border-right:1px solid rgba(128, 128, 128, 0.644);
+    border-bottom:1px solid rgba(128, 128, 128, 0.644);
+    margin-bottom: 50px;
+    
+}
+
+.aluninha {
+    padding: 40px 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.582);
+    transition: all 1s;
+}
+.aluninha:hover {
+    font-size: 23px;
+    opacity: .8;
+    background-color: rgba(237, 212, 240, 0.897);
+    cursor: pointer;
+}
+
+.alunaView {
+    padding: 10px 15px;
+    
+}
+
+footer {
+    background-color:  #7E459B;
+    padding: 80px 20px;
+    text-align: center;
+}
