@@ -82,6 +82,7 @@ button:hover {
     border-right:1px solid rgba(128, 128, 128, 0.644);
     border-bottom:1px solid rgba(128, 128, 128, 0.644);
     margin-bottom: 50px;
+    border-radius: 5px;
     
 }
 
@@ -106,4 +107,5 @@ footer {
     background-color:  #7E459B;
     padding: 80px 20px;
     text-align: center;
+
 }
